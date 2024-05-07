@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poetsen+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-brand{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color:#720101;
+}
+.navbar-nav{
+    position: relative;
+    top: 5px;
+}
+.nav-link{
+    color: #720101;
+}
+.active{
+    color: #720101;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #720101;
+}
+.home-section{
+    background-image: url(./photos/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: cover;
+}
+.par-home{
+    width: 100%;
+    padding-top: 20%;
+    text-align: center;
+    color: white;
+}
+.par-home h1{
+    font-size: 4rem;
+    font-family: "Merriweather", serif;
+
+}
+.btn-2{
+    text-decoration: none;
+    background-color: #720101;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    background-color: transparent;
+}
+.second-section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.top-second{
+    text-align: center;
+}
+.top-second h1{
+    font-family: "Merriweather", serif;
+}
+.cards-second{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+.card-second img{
+    width: 100%;
+    height: 50vh;
+}
+.card-par{
+    padding: 10px;
+}
+.card-second{
+    background-color: whitesmoke;
+}
+.third-section{
+    margin-bottom: 10%;
+    text-align: center;
+}
+.input-third{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.form{
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+}
+.message{
+    width: 100%;
+    height: 30vh;
+    margin-top: 10px;
+    padding: 5px;
+}
+.top-third{
+    text-align: center;
+    font-family: "Merriweather", serif;
+    margin-bottom: 10px;
+}
+.contact-us{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #720101;
+    color: white;
+    padding: 10px;
+    position: relative;
+    top: 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.contact-us:hover{
+    color: black;
+    background-color: transparent;
+}
+.details-iframe{
+    margin-top: 5%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.details a{
+    text-decoration: none;
+    color: #720101;
+}
+.iframe{
+    width: 70%;
+    height: 50vh;
+}
+.diaa{
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 994px){
+    .navbar{
+        text-align: center;
+    }
+    .par-home{
+        padding-top: 40%;
+    }
+    .cards-second{
+        display: block;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 20px;
+        
+    }
+    .card-second{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .input-third{
+        display: block;
+    }
+    .form{
+        width: 100%;
+        padding: 5px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .details-iframe{
+        margin-top: 10%;
+        text-align: left;
+        display: block;
+        justify-content: space-between;
+    }
+    .details{
+        width: 100%;
+        text-align: center;
+    }
+    .iframe{
+        width: 100%;
+        height: 50vh;
+        margin-top: 10px;
+    }
+    
+    
+}
+@media only screen and (max-width: 600px){
+    .navbar{
+        text-align: center;
+    }
+    .par-home{
+        padding-top: 40%;
+    }
+    .cards-second{
+        display: block;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 20px;
+        
+    }
+    .card-second{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .input-third{
+        display: block;
+    }
+    .form{
+        width: 100%;
+        padding: 5px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .details-iframe{
+        margin-top: 10%;
+        text-align: left;
+        display: block;
+        justify-content: space-between;
+    }
+    .details{
+        width: 100%;
+        text-align: center;
+    }
+    .iframe{
+        width: 100%;
+        height: 50vh;
+        margin-top: 10px;
+    }
+
+}
